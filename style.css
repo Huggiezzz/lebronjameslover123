@@ -1,0 +1,38 @@
+body {
+    font-family: "Comic Sans MS", sans-serif;
+    background-color: #f8f520;
+    color: #333;
+    margin: 20px;
+}
+
+.container {
+    display: flex;
+    gap: 20px; /* Espacio entre columnas */
+}
+
+.container div {
+    background-color: #fdbaff;
+    border: 1px solid #000000;
+    border-radius: 16px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1; /* Hacer que las columnas ocupen el mismo espacio */
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(187, 16, 187);
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #ff0000;
+}
